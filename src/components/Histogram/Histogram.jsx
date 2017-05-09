@@ -8,7 +8,7 @@ class HistogramBar extends Component {
             label = this.props.percent.toFixed(0) + '%';
 
 		if (this.props.percent < 1) {
-			label = this.props.percent.toFixed(2)+"%";
+			label = this.props.percent.toFixed(2) + "%";
 		}
 		if (this.props.width < 20) {
 			label = label.replace("%", "");
@@ -78,7 +78,6 @@ class Histogram extends Component {
         this.yScale
             .domain([0, d3.max(bars.map((d) => d.x + d.dx))])
             .range([0, props.height - props.topMargin - props.bottomMargin]);
-	    }
     }
 
     render() {

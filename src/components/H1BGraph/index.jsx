@@ -1,6 +1,7 @@
 // ./src/components/H1BGraph/index.jsx
 import React, { Component } from 'react';
 import * as d3 from "d3";
+import Histogram from '../Histogram';
 
 class H1BGraph extends Component {
     constructor() {
@@ -51,12 +52,23 @@ class H1BGraph extends Component {
     render() {
         if (!this.state.rawData.length) {
             return (
-                <h2>Loading data about 81,000 H1B visas in the software industry</h2>
+                <h2>Loading data</h2>
             );
         }
+		let params = {
+				bins: 20,
+				width: 500,
+				height: 500,
+				axisMargin: 83,
+				topMargin: 10,
+				bottomMargin: 5,
+				value: (d) => d.base_salary
+			},
+			fullWidth = 700;
         return (
             <div>
-                <svg>
+            	<svg width={fullWidth} height={params.height}>
+                    <Histogram {...params} data={this.state.rawData} />
                 </svg>
             </div>
         );

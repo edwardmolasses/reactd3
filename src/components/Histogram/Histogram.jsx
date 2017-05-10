@@ -45,7 +45,6 @@ class Histogram extends Component {
     }
 
 	makeBar(bar) {
-		debugger;
         let percent = bar.y / this.props.data.length * 100,
         	props = {
     			percent: percent,
@@ -66,7 +65,6 @@ class Histogram extends Component {
     }
 
     update_d3(props) {
-    	// debugger;
     	this.histogram
             .bins(props.bins)
             .value(props.value);
@@ -80,7 +78,6 @@ class Histogram extends Component {
         this.yScale
             .domain([0, d3.max(bars.map((d) => d.x + d.dx))])
             .range([0, props.height - props.topMargin - props.bottomMargin]);
-        // debugger;
     }
 
     render() {

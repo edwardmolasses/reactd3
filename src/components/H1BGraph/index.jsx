@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import * as d3 from "d3";
 import Histogram from '../Histogram';
+import Controls from './Controls';
 
 require('../Histogram/style.less');
 
@@ -69,8 +70,9 @@ class H1BGraph extends Component {
         return (
             <div>
             	<svg width={fullWidth} height={params.height}>
-                    <Histogram {...params} data={this.state.rawData} />
-                </svg>
+                <Histogram {...params} data={this.state.rawData} />
+              </svg>
+              <Controls data={this.state.rawData} updateDataFilter={() => true} />
             </div>
         );
     }

@@ -3,7 +3,17 @@ import React, { Component } from 'react';
 
 class Toggle extends Component {
     render() {
-        return null;
+		let className = "btn btn-default";
+
+		if (this.state.value) {
+			className += " btn-primary";
+		}
+
+		return (
+			<button className={className} onClick={::this.handleClick}>
+			{this.props.label}
+			</button>
+		);
     }
 }
 

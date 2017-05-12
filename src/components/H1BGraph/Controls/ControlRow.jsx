@@ -4,18 +4,6 @@ import _ from 'lodash';
 import Toggle from './Toggle';
 
 class ControlRow extends Component {
-	makePick(picked, newState) {
-
-	}
-
-	componentWillMount() {
-		let toggles = this.props.getToggleNames(this.props.data),
-		toggleValues = _.zipObject(toggles,
-		toggles.map(() => false));
-
-		this.state = {toggleValues: toggleValues};
-	}
-
 	_addToggle(name) {
 		let key = `toggle-${name}`,
 			label = name;
@@ -31,6 +19,17 @@ class ControlRow extends Component {
 					value={this.state.toggleValues[name]}
 					onClick={::this.makePick} />
 		);
+	}
+
+	makePick(picked, newState) {
+
+	}
+
+	componentWillMount() {
+		let toggles = this.props.getToggleNames(this.props.data),
+		toggleValues = _.zipObject(toggles, toggles.map(() => false));
+
+		this.state = {toggleValues: toggleValues};
 	}
 
     render() {

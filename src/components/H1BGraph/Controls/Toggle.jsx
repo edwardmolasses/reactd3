@@ -2,7 +2,22 @@
 import React, { Component } from 'react';
 
 class Toggle extends Component {
-    render() {
+	constructor() {
+		super();
+
+		this.state = {value: false};
+	}
+
+	componentWillReceiveProps(newProps) {
+		this.setState({value: newProps.value});
+	}
+
+	handleClick(event) {
+		let newValue = !this.state.value;
+		this.setState({value: newValue});
+	}
+
+	render() {
 		let className = "btn btn-default";
 
 		if (this.state.value) {

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ab0cf23-b12d-40b8-891b-7d230a823f9e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/H1BGraph/Controls/ControlRow.jsx" afterPath="$PROJECT_DIR$/src/components/H1BGraph/Controls/ControlRow.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/H1BGraph/Controls/Toggle.jsx" afterPath="$PROJECT_DIR$/src/components/H1BGraph/Controls/Toggle.jsx" />
     </list>
     <ignored path="reactd3.iws" />
@@ -23,12 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Toggle.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/H1BGraph/Controls/Toggle.jsx">
+      <file leaf-file-name="ControlRow.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/H1BGraph/Controls/ControlRow.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="384">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="e#53#94#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,6 +45,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/components/H1BGraph/Controls/Toggle.jsx" />
+        <option value="$PROJECT_DIR$/src/components/H1BGraph/Controls/ControlRow.jsx" />
       </list>
     </option>
   </component>
@@ -253,12 +257,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495140915376</updated>
-      <workItem from="1495140916527" duration="1815000" />
+      <workItem from="1495140916527" duration="4033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1815000" />
+    <option name="totallyTimeSpent" value="4033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -300,25 +304,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/H1BGraph/Controls/ControlRow.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <marker date="1494456799000" expanded="true" signature="60:149" ph="..." />
-            <marker date="1494456799000" expanded="true" signature="186:983" ph="{...}" />
-            <marker date="1494456799000" expanded="true" signature="206:476" ph="{...}" />
-            <marker date="1494456799000" expanded="true" signature="285:322" ph="{...}" />
-            <marker date="1494456799000" expanded="true" signature="338:468" ph="&lt;Toggle/&gt;" />
-            <marker date="1494456799000" expanded="true" signature="506:511" ph="{...}" />
-            <marker date="1494456799000" expanded="true" signature="535:710" ph="{...}" />
-            <marker date="1494456799000" expanded="true" signature="725:981" ph="{...}" />
-            <marker date="1494456799000" expanded="true" signature="756:964" ph="&lt;div/&gt;" />
-            <marker date="1494456799000" expanded="true" signature="794:945" ph="&lt;div/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Histogram/Axis.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -400,9 +385,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/H1BGraph/Controls/Toggle.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="264">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <marker date="1495146321000" expanded="true" signature="123:656" ph="{...}" />
+            <marker date="1495146321000" expanded="true" signature="140:187" ph="{...}" />
+            <marker date="1495146321000" expanded="true" signature="226:272" ph="{...}" />
+            <marker date="1495146321000" expanded="true" signature="294:420" ph="{...}" />
+            <marker date="1495146321000" expanded="true" signature="432:654" ph="{...}" />
+            <marker date="1495146321000" expanded="true" signature="496:533" ph="{...}" />
+            <marker date="1495146321000" expanded="true" signature="549:643" ph="&lt;button/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/H1BGraph/Controls/ControlRow.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#53#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

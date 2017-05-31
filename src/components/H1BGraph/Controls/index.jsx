@@ -56,18 +56,17 @@ class Controls extends Component {
     }
 
     render() {
-		let getYears = (data) => {
-			return _.keys(_.groupBy(data, (d) => d.submit_date.getFullYear()))
-					.map(Number);
-		}
-        let getUSStates = (data) => _.sortBy(_.keys(_.groupBy(data, (d) => d.state)));
+        let getYears = (data) => _.keys(_.groupBy(data,
+            (d) => d.submit_date.getFullYear()))
+            .map(Number);
+        let getStates = (data) => _.sortBy(_.keys(_.groupBy(data, (d) => d.state ? d.state : false)));
         return (
             <div>
 				<ControlRow data={this.props.data}
 							getToggleNames={getYears}
 							updateDataFilter={::this.updateYearFilter} />
                 <ControlRow data={this.props.data}
-                            getToggleNames={getUSStates}
+                            getToggleNames={getStates}
                             updateDataFilter={::this.updateUSStateFilter}
                             capitalize="true" />
             </div>

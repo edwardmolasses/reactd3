@@ -33,7 +33,9 @@ class ControlRow extends Component {
 	}
 
 	componentWillMount() {
-		let toggles = this.props.getToggleNames(this.props.data),
+		let toggles = this.props.getToggleNames(this.props.data).filter(function(val) {
+			return val !== '';
+		}),
 		toggleValues = _.zipObject(toggles, toggles.map(() => false));
 
 		this.state = {toggleValues: toggleValues};

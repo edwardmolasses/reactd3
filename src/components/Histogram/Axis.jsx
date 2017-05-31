@@ -30,6 +30,9 @@ class Axis extends Component {
 	}
 
     update_d3(props) {
+        console.log('%c[Axis.jsx:33]\nprops.topMargin \n(see below): ','font-size:25px;color:thistle;'); console.log(props.topMargin);
+        console.log('%c[Axis.jsx:34]\nprops.bottomMargin \n(see below): ','font-size:25px;color:yellowgreen;'); console.log(props.bottomMargin);
+        console.log('%c[Axis.jsx:35]\nprops.data.length \n(see below): ','font-size:25px;color:teal;'); console.log(props.data.length);
 		this.yScale
 			.domain([0, d3.max(props.data.map((d) => d.x + d.dx))])
 			.range([0, props.height - props.topMargin - props.bottomMargin]);

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import * as d3 from "d3";
 import Histogram from '../Histogram';
 import Controls from './Controls';
+import { Title, Description } from './Meta';
 
 require('../Histogram/style.less');
 
@@ -75,10 +76,12 @@ class H1BGraph extends Component {
         let filteredData = this.state.rawData.filter(this.state.dataFilter);
         return (
             <div>
-            	<svg width={fullWidth} height={params.height}>
-                <Histogram {...params} data={filteredData} />
-              </svg>
-              <Controls data={this.state.rawData} updateDataFilter={::this.updateDataFilter} />
+                <Title data={filteredData} />
+                <Description data={filteredData} allData={this.state.rawData} />
+                <svg width={fullWidth} height={params.height}>
+                    <Histogram {...params} data={filteredData} />
+                </svg>
+                <Controls data={this.state.rawData} updateDataFilter={::this.updateDataFilter} />
             </div>
         );
     }

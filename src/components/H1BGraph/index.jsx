@@ -32,7 +32,7 @@ class H1BGraph extends Component {
 		let dateFormat = d3.time.format("%m/%d/%Y");
         d3.csv(this.props.url)
           .row((d) => {
-			if (!d['base salary']) {
+			if (!d['base salary'] || !d['state']) {
 				return null;
 			}
 			return {employer: d.employer,

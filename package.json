@@ -12,12 +12,12 @@
     "type": "git",
     "url": "git://github.com/Swizec/react-d3js-experiment.git"
   },
-  "author": "Swizec",
+  "author": "Andrew",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Swizec/react-d3js-experiment/issues"
+    "url": "https://github.com/edwardmolasses/reactd3"
   },
-  "homepage": "https://github.com/Swizec/react-d3js-experiment",
+  "homepage": "https://github.com/edwardmolasses/reactd3",
   "devDependencies": {
     "babel-core": "^6.3.15",
     "babel-eslint": "^5.0.0-beta4",

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ab0cf23-b12d-40b8-891b-7d230a823f9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/H1BGraph/Controls/ControlRow.jsx" afterPath="$PROJECT_DIR$/src/components/H1BGraph/Controls/ControlRow.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/H1BGraph/Controls/index.jsx" afterPath="$PROJECT_DIR$/src/components/H1BGraph/Controls/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/H1BGraph/index.jsx" afterPath="$PROJECT_DIR$/src/components/H1BGraph/index.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Histogram/Axis.jsx" afterPath="$PROJECT_DIR$/src/components/Histogram/Axis.jsx" />
     </list>
     <ignored path="reactd3.iws" />
@@ -26,14 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BaseComponent.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/H1BGraph/Meta/BaseComponent.jsx">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#52#93#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,12 +44,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/components/H1BGraph/Controls/Toggle.jsx" />
-        <option value="$PROJECT_DIR$/src/components/H1BGraph/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/H1BGraph/Controls/ControlRow.jsx" />
         <option value="$PROJECT_DIR$/src/components/H1BGraph/Controls/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Histogram/Axis.jsx" />
         <option value="$PROJECT_DIR$/src/components/Histogram/Histogram.jsx" />
         <option value="$PROJECT_DIR$/src/components/H1BGraph/Meta/BaseComponent.jsx" />
+        <option value="$PROJECT_DIR$/src/components/H1BGraph/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Histogram/Axis.jsx" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -99,6 +97,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,6 +210,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="H1BGraph" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controls" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactd3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactd3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -221,7 +246,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,11 +317,12 @@
       <workItem from="1495760638009" duration="2083000" />
       <workItem from="1496178285712" duration="3947000" />
       <workItem from="1496246661499" duration="4179000" />
+      <workItem from="1496333495830" duration="1619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22954000" />
+    <option name="totallyTimeSpent" value="24573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="6" />
@@ -307,7 +332,6 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -319,6 +343,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -339,6 +364,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/H1BGraph/Meta/BaseComponent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1496263322000" expanded="true" signature="59:138" ph="..." />
+            <marker date="1496263322000" expanded="true" signature="184:280" ph="{...}" />
+            <marker date="1496263322000" expanded="true" signature="205:213" ph="{...}" />
+            <marker date="1496263322000" expanded="true" signature="237:245" ph="{...}" />
+            <marker date="1496263322000" expanded="true" signature="270:278" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/H1BGraph/Controls/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="636">
@@ -465,34 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/H1BGraph/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
-          <folding>
-            <marker date="1496180488000" expanded="false" signature="46:179" ph="..." />
-            <marker date="1496180488000" expanded="true" signature="251:2138" ph="{...}" />
-            <marker date="1496180488000" expanded="true" signature="271:390" ph="{...}" />
-            <marker date="1496180488000" expanded="true" signature="312:383" ph="{...}" />
-            <marker date="1496180488000" expanded="true" signature="417:452" ph="{...}" />
-            <marker date="1496180488000" expanded="true" signature="483:535" ph="{...}" />
-            <marker date="1496180488000" expanded="true" signature="557:576" ph="{...}" />
-            <marker date="1496180488000" expanded="true" signature="593:1425" ph="{...}" />
-            <marker date="1496180488000" expanded="true" signature="695:1168" ph="{...}" />
-            <marker date="1496180488000" expanded="true" signature="723:746" ph="{...}" />
-            <marker date="1496180488000" expanded="true" signature="757:1155" ph="{&quot;employer&quot;: d.employer...}" />
-            <marker date="1496180488000" expanded="true" signature="1202:1417" ph="{...}" />
-            <marker date="1496180488000" expanded="true" signature="1229:1332" ph="{...}" />
-            <marker date="1496180488000" expanded="true" signature="1338:1405" ph="{...}" />
-            <marker date="1496180488000" expanded="true" signature="1440:2136" ph="{...}" />
-            <marker date="1496180488000" expanded="true" signature="1482:1567" ph="{...}" />
-            <marker date="1496180488000" expanded="true" signature="1583:1728" ph="{...}" />
-            <marker date="1496180488000" expanded="true" signature="1856:2119" ph="&lt;div/&gt;" />
-            <marker date="1496180488000" expanded="true" signature="1875:2004" ph="&lt;svg/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -534,70 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/H1BGraph/Controls/ControlRow.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <marker date="1496248736000" expanded="false" signature="60:149" ph="..." />
-            <marker date="1496248736000" expanded="true" signature="186:1311" ph="{...}" />
-            <marker date="1496248736000" expanded="true" signature="206:476" ph="{...}" />
-            <marker date="1496248736000" expanded="true" signature="285:322" ph="{...}" />
-            <marker date="1496248736000" expanded="true" signature="338:468" ph="&lt;Toggle/&gt;" />
-            <marker date="1496248736000" expanded="true" signature="506:789" ph="{...}" />
-            <marker date="1496248736000" expanded="true" signature="813:1038" ph="{...}" />
-            <marker date="1496248736000" expanded="true" signature="895:922" ph="{...}" />
-            <marker date="1496248736000" expanded="true" signature="1053:1309" ph="{...}" />
-            <marker date="1496248736000" expanded="true" signature="1084:1292" ph="&lt;div/&gt;" />
-            <marker date="1496248736000" expanded="true" signature="1122:1273" ph="&lt;div/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Histogram/Axis.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <marker date="1496261853000" expanded="false" signature="46:135" ph="..." />
-            <marker date="1496261853000" expanded="true" signature="166:1701" ph="{...}" />
-            <marker date="1496261853000" expanded="true" signature="191:480" ph="{...}" />
-            <marker date="1496261853000" expanded="true" signature="522:563" ph="{...}" />
-            <marker date="1496261853000" expanded="true" signature="670:750" ph="{...}" />
-            <marker date="1496261853000" expanded="true" signature="773:1507" ph="{...}" />
-            <marker date="1496261853000" expanded="true" signature="1522:1699" ph="{...}" />
-            <marker date="1496261853000" expanded="true" signature="1623:1682" ph="&lt;g/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Histogram/Histogram.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <marker date="1496262065000" expanded="false" signature="51:138" ph="..." />
-            <marker date="1496262065000" expanded="true" signature="177:1000" ph="{...}" />
-            <marker date="1496262065000" expanded="true" signature="192:998" ph="{...}" />
-            <marker date="1496262065000" expanded="true" signature="353:406" ph="{...}" />
-            <marker date="1496262065000" expanded="true" signature="436:476" ph="{...}" />
-            <marker date="1496262065000" expanded="true" signature="506:526" ph="{...}" />
-            <marker date="1496262065000" expanded="true" signature="557:981" ph="&lt;g/&gt;" />
-            <marker date="1496262065000" expanded="true" signature="615:773" ph="&lt;rect/&gt;" />
-            <marker date="1496262065000" expanded="true" signature="790:964" ph="&lt;text/&gt;" />
-            <marker date="1496262065000" expanded="true" signature="1036:2577" ph="{...}" />
-            <marker date="1496262065000" expanded="true" signature="1058:1231" ph="{...}" />
-            <marker date="1496262065000" expanded="true" signature="1247:1606" ph="{...}" />
-            <marker date="1496262065000" expanded="true" signature="1326:1530" ph="{&quot;percent&quot;: percent...}" />
-            <marker date="1496262065000" expanded="true" signature="1648:1689" ph="{...}" />
-            <marker date="1496262065000" expanded="true" signature="1712:2187" ph="{...}" />
-            <marker date="1496262065000" expanded="true" signature="2202:2575" ph="{...}" />
-            <marker date="1496262065000" expanded="true" signature="2348:2558" ph="&lt;g/&gt;" />
-            <marker date="1496262065000" expanded="true" signature="2409:2487" ph="&lt;g/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/H1BGraph/Controls/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="732">
@@ -626,11 +573,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/H1BGraph/Meta/BaseComponent.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
-            <element signature="e#52#93#0" expanded="true" />
+            <marker date="1496263322000" expanded="true" signature="59:138" ph="..." />
+            <marker date="1496263322000" expanded="true" signature="184:280" ph="{...}" />
+            <marker date="1496263322000" expanded="true" signature="205:213" ph="{...}" />
+            <marker date="1496263322000" expanded="true" signature="237:245" ph="{...}" />
+            <marker date="1496263322000" expanded="true" signature="270:278" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/H1BGraph/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <marker date="1496334129000" expanded="false" signature="46:179" ph="..." />
+            <marker date="1496334129000" expanded="true" signature="251:2153" ph="{...}" />
+            <marker date="1496334129000" expanded="true" signature="271:390" ph="{...}" />
+            <marker date="1496334129000" expanded="true" signature="312:383" ph="{...}" />
+            <marker date="1496334129000" expanded="true" signature="417:452" ph="{...}" />
+            <marker date="1496334129000" expanded="true" signature="483:535" ph="{...}" />
+            <marker date="1496334129000" expanded="true" signature="557:576" ph="{...}" />
+            <marker date="1496334129000" expanded="true" signature="593:1440" ph="{...}" />
+            <marker date="1496334129000" expanded="true" signature="695:1183" ph="{...}" />
+            <marker date="1496334129000" expanded="true" signature="738:761" ph="{...}" />
+            <marker date="1496334129000" expanded="true" signature="772:1170" ph="{&quot;employer&quot;: d.employer...}" />
+            <marker date="1496334129000" expanded="true" signature="1217:1432" ph="{...}" />
+            <marker date="1496334129000" expanded="true" signature="1244:1347" ph="{...}" />
+            <marker date="1496334129000" expanded="true" signature="1353:1420" ph="{...}" />
+            <marker date="1496334129000" expanded="true" signature="1455:2151" ph="{...}" />
+            <marker date="1496334129000" expanded="true" signature="1497:1582" ph="{...}" />
+            <marker date="1496334129000" expanded="true" signature="1598:1743" ph="{...}" />
+            <marker date="1496334129000" expanded="true" signature="1871:2134" ph="&lt;div/&gt;" />
+            <marker date="1496334129000" expanded="true" signature="1890:2019" ph="&lt;svg/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/H1BGraph/Controls/ControlRow.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <marker date="1496248736000" expanded="false" signature="60:149" ph="..." />
+            <marker date="1496248736000" expanded="true" signature="186:1311" ph="{...}" />
+            <marker date="1496248736000" expanded="true" signature="206:476" ph="{...}" />
+            <marker date="1496248736000" expanded="true" signature="285:322" ph="{...}" />
+            <marker date="1496248736000" expanded="true" signature="338:468" ph="&lt;Toggle/&gt;" />
+            <marker date="1496248736000" expanded="true" signature="506:789" ph="{...}" />
+            <marker date="1496248736000" expanded="true" signature="813:1038" ph="{...}" />
+            <marker date="1496248736000" expanded="true" signature="895:922" ph="{...}" />
+            <marker date="1496248736000" expanded="true" signature="1053:1309" ph="{...}" />
+            <marker date="1496248736000" expanded="true" signature="1084:1292" ph="&lt;div/&gt;" />
+            <marker date="1496248736000" expanded="true" signature="1122:1273" ph="&lt;div/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Histogram/Histogram.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding>
+            <marker date="1496262065000" expanded="false" signature="51:138" ph="..." />
+            <marker date="1496262065000" expanded="true" signature="177:1000" ph="{...}" />
+            <marker date="1496262065000" expanded="true" signature="192:998" ph="{...}" />
+            <marker date="1496262065000" expanded="true" signature="353:406" ph="{...}" />
+            <marker date="1496262065000" expanded="true" signature="436:476" ph="{...}" />
+            <marker date="1496262065000" expanded="true" signature="506:526" ph="{...}" />
+            <marker date="1496262065000" expanded="true" signature="557:981" ph="&lt;g/&gt;" />
+            <marker date="1496262065000" expanded="true" signature="615:773" ph="&lt;rect/&gt;" />
+            <marker date="1496262065000" expanded="true" signature="790:964" ph="&lt;text/&gt;" />
+            <marker date="1496262065000" expanded="true" signature="1036:2577" ph="{...}" />
+            <marker date="1496262065000" expanded="true" signature="1058:1231" ph="{...}" />
+            <marker date="1496262065000" expanded="true" signature="1247:1606" ph="{...}" />
+            <marker date="1496262065000" expanded="true" signature="1326:1530" ph="{&quot;percent&quot;: percent...}" />
+            <marker date="1496262065000" expanded="true" signature="1648:1689" ph="{...}" />
+            <marker date="1496262065000" expanded="true" signature="1712:2187" ph="{...}" />
+            <marker date="1496262065000" expanded="true" signature="2202:2575" ph="{...}" />
+            <marker date="1496262065000" expanded="true" signature="2348:2558" ph="&lt;g/&gt;" />
+            <marker date="1496262065000" expanded="true" signature="2409:2487" ph="&lt;g/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Histogram/Axis.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <marker date="1496335044000" expanded="false" signature="46:135" ph="..." />
+            <marker date="1496335044000" expanded="true" signature="166:1890" ph="{...}" />
+            <marker date="1496335044000" expanded="true" signature="191:480" ph="{...}" />
+            <marker date="1496335044000" expanded="true" signature="522:563" ph="{...}" />
+            <marker date="1496335044000" expanded="true" signature="859:939" ph="{...}" />
+            <marker date="1496335044000" expanded="true" signature="962:1696" ph="{...}" />
+            <marker date="1496335044000" expanded="true" signature="1711:1888" ph="{...}" />
+            <marker date="1496335044000" expanded="true" signature="1812:1871" ph="&lt;g/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>

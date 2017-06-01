@@ -20,8 +20,10 @@ class Axis extends Component {
         this.update_d3(newProps);
     }
 
-	componentDidUpdate() { this.renderAxis(); }
+    // dirty trick: ensures renderAxis gets called every time our component has to re-render
+    componentDidUpdate() { this.renderAxis(); }
 
+    // dirty trick: ensures renderAxis gets called every time our component has to re-render
 	componentDidMount() { this.renderAxis(); }
 
 	renderAxis() {
